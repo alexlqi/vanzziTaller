@@ -1,0 +1,538 @@
+BODY, HTML
+{
+	height:100%;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+h1
+{
+	background:url(../imagenes/fondoH1.png) no-repeat 10px 5px #333;
+	margin:0;
+	color:#FFF;
+	padding:2px 20px 2px 40px;
+	font-weight:normal;
+}
+#divLogin
+{
+	/*background:url(../imagenes/fondoTop.gif);
+	color:#FFF;*/
+}
+#top
+{
+	height:50px;
+	border-bottom:1px #666 double;
+	background:url(../imagenes/fondoTop.gif);
+}
+#fecha
+{
+	width:45%;
+	float:right;
+	padding:16px 20px;
+	text-transform:uppercase;
+	text-align:right;
+}
+#enLinea
+{
+	width:45%;
+	float:left;
+	padding:6px 20px;
+}
+#logout
+{
+	width:93px;
+	display:block;
+	padding:1px;
+	margin-bottom:4px;
+	background:url(../imagenes/iconLogout.png) no-repeat 1px 1px;;
+	padding-left:18px;
+	color:#900;
+	text-decoration:none;
+}
+#logout:hover
+{
+	background-color:#FFE1E1;
+}
+#menu
+{
+	width:200px;
+	float:left;
+	background:#333;
+}
+#body
+{
+	margin-left:200px;
+	background:url(../imagenes/fondoBody.png) no-repeat center;
+	min-height:645px;
+}
+#bgLogin
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(../imagenes/fondoLogin.png);
+	z-index:100;
+}
+#login
+{
+	position:absolute;
+	width:280px;
+	height:180px;
+	top:50%;
+	left:50%;
+	margin-top:-100px;
+	margin-left:-150px;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+}
+#formLogin
+{
+	border:1px #000 solid;
+	padding:10px;
+	background:#FFF;
+	text-align:center;
+	font-size:12px;
+	color:#000;
+}
+#formLogin label
+{
+	display:block;
+	font-weight:bold;
+	margin:8px 0 4px 0;
+}
+#formLogin input[type="text"], #formLogin input[type="password"]
+{
+	width:99%;
+}
+#divAutorizar
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(../imagenes/fondoLogin.png);
+	z-index:100;
+	display:none;
+}
+#footer
+{
+	padding:10px;
+	text-align:center;
+	font-size:10px;
+}
+#forma
+{
+	width:90%;
+	margin:10px auto;
+	background:#e4e2e2;
+	border-top:1px #ccc solid;
+	border-left:1px #ccc solid;
+	border-right:1px #000 solid;
+	border-bottom:1px #000 solid;
+}
+#forma label
+{
+	display:block;
+	font-weight:bold;
+	padding:5px;
+}
+#forma .input
+{
+	width:33%;
+	padding:2px;
+}
+#forma input[type="text"], #forma textarea, #forma input[type="password"]
+{
+	width:99%;
+}
+#forma h2
+{
+	background:#8d8b8b;
+	padding:5px;
+	margin:0;
+	color:#ffffff;
+	font-weight:normal;
+}
+.divAutoBuscar
+{
+	position:absolute;
+	width:400px;
+}
+.divAutoBuscar ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.divAutoBuscar ul li a
+{
+	display:block;
+	width:390px;
+	padding:5px;
+	background:#FFF;
+	border:1px #CCC solid;
+	border-top:none;
+	color:#333;
+	text-decoration:none;
+}
+.divAutoBuscar ul li a:hover
+{
+	background:#f8cbcc;
+}
+.clear
+{
+	clear:both;
+}
+.divCerrar
+{
+	width:390px;
+	text-align:right;
+	background:#FFF;
+	padding:5px;
+	border:1px #CCC solid;
+	border-bottom:none;
+}
+.divCerrar a
+{
+	display:inline;
+	color:#970000;
+	text-decoration:none;
+}
+.divCerrar a:hover
+{
+	color:#333333;
+}
+.tabla1
+{
+	font-size:10px;
+	background:#aaaba5;
+	margin-top:5px;
+}
+.tabla1 .encabezado
+{
+	background:#eaebd9;
+	text-align:center;
+}
+.tabla1 .fila
+{
+	background:#ffffff;
+}
+.tabla1 .filaSuspendida
+{
+	background:#999999;
+	color:#333;
+}
+.tabla1 .encabezadoVenta
+{
+	background:#eaebd9;
+	text-align:center;
+	font-size:14px;
+}
+.tabla1 .filaVenta
+{
+	background:#ffffff;
+	font-size:18px;
+}
+.tabla1 .filaVentaBO
+{
+	background:#ffffff;
+	color:#a31304;
+	font-size:18px;
+}
+.tabla1 .filaVentaCancel
+{
+	background:#ffffff;
+	color:#bfbebd;
+	font-size:18px;
+}
+.tabla2
+{
+	font-size:18px;
+	background:#aaaba5;
+	margin:5px 70px 5px 0;
+}
+.tabla2 .fila
+{
+	background:#ffffff;
+}
+.tabla2 input[type="text"]
+{
+	font-size:18px;
+	background:#ffffff;
+	border-color:#FFF;
+	border:none;
+}
+.btnDescarga
+{
+	background:url(../imagenes/logoExcel.png) no-repeat 5px 5px #333;
+	border:1px #333 solid;
+	padding:10px 5px 10px 35px;
+	margin:25px 0 0 50px;
+	font-weight:bold;
+	color:#FFF;
+}
+.btnDescarga:hover
+{
+	background:url(../imagenes/logoExcel.png) no-repeat 5px 5px #595a5a;
+	border:1px #333 solid;
+	color:#FFF;
+	cursor:pointer;
+}
+.btnCerrar
+{
+	width:15px;
+	height:15px;
+	background:url(../imagenes/iconCerrar.png);
+	float:right;
+	margin-top:5px;
+	cursor:pointer;
+}
+.errorMsg
+{
+	border:2px #000 solid;
+	width:70%;
+	margin:25px auto;
+	padding:10px;
+	text-align:center;
+	background:#e33131;
+}
+.alertaMsg
+{
+	border:2px #000 solid;
+	width:70%;
+	margin:25px auto;
+	padding:10px;
+	text-align:center;
+	background:#efd002;
+}
+.subiendoMsg
+{
+	border:2px #03378e solid;
+	width:50%;
+	margin:25px auto;
+	padding:5px;
+	text-align:center;
+	background:#abc5f0;
+	display:none;
+}
+.divImagen
+{
+	width:170px;
+	float:left;
+	border:1px #000 solid;
+	padding:5px;
+	margin:10px;
+	text-align:center;
+	background:#FFF;
+}
+.calendario
+{
+	background:#FFF;
+	font-size:12px;
+	color:#666;
+	text-align:center;
+	padding:7px;
+}
+.datosFactura
+{
+	width:33%;
+	border:1px #000 solid;
+	background:#CCC;
+	color:#333;
+}
+.datosFactura:hover
+{
+	border:1px #666 solid;
+	background:#FFF;
+	color:#666;
+	cursor:pointer;
+}
+.parametrosEnabled
+{
+	border-bottom:1px #333 solid;
+	border-right:1px #333 solid;
+	border-left:1px #FFF solid;
+	border-top:1px #FFF solid;
+	padding:5px;
+	margin:7px;
+}
+.parametrosDisabled
+{
+	border-bottom:1px #ccc solid;
+	border-right:1px #ccc solid;
+	border-left:1px #ccc solid;
+	border-top:1px #ccc solid;
+	color:#999;
+	background:#ccc;
+	padding:5px;
+	margin:7px;
+}
+.divEdicion
+{
+	display:none;
+}
+.divEdicion input[type="text"]
+{
+	width:60%;
+	font-size:11px;
+}
+.divEdicion input[type="submit"], .divEdicion input[type="button"]
+{
+	font-size:11px;
+}
+.divCategoria
+{
+	padding:7px 5px;
+	border-top:1px #ffffff solid;
+	border-left:1px #ffffff solid;
+	border-bottom:1px #000000 solid;
+	border-right:1px #000000 solid;
+}
+.divCategoria:hover
+{
+	padding:7px 5px;
+	border-top:1px #000000 solid;
+	border-left:1px #000000 solid;
+	border-bottom:1px #ffffff solid;
+	border-right:1px #ffffff solid;
+	cursor:pointer;
+}
+.divRecurso
+{
+	width:200px;
+	float:left;
+	margin:5px;
+	padding:20px 7px 7px 7px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	text-align:center;
+}
+.divPaquete
+{
+	width:381px;
+	min-height:60px;
+	float:left;
+	margin:5px;
+	padding:20px 7px 7px 7px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	text-align:center;
+}
+.divAgregado
+{
+	border:3px #7BBC2F solid;
+	background:url(../imagenes/checkedIcon.png) no-repeat 3px 3px;
+}
+.divNoAgregado
+{
+	border:3px #999999 solid;
+}
+.divNoAgregado:hover
+{
+	border:3px #7BBC2F solid;
+	cursor:pointer;
+	background:#c2daa5;
+}
+.listaPartidas
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.listaPartidas li
+{
+	padding:5px;
+	background:#CCC;
+	margin-bottom:2px;
+}
+.labelTotal
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#C60000;
+}
+.divFolio
+{
+	font-weight:bold;
+	text-align:center;
+	color:#CA0000;
+}
+
+/***********************  MENU  ***************************/
+.AccordionTitle, .AccordionContent, .AccordionContainer
+{
+  position:relative;
+}
+
+.AccordionTitle
+{
+  cursor:pointer;
+  text-align:center;
+  /*background-image:url('../imagenes/fondoMenu.png');
+  background-repeat:no-repeat;*/
+  padding:5px 0;
+  border-bottom:1px #000 solid;
+  border-left:1px #999 solid;
+  border-right:1px #000 solid;
+  border-top:1px #999 solid;
+  background:#666;
+}
+
+.AccordionTitle:hover
+{
+  /*background-image:url('../imagenes/fondoMenuOver.png');*/
+  border-bottom:1px #999 solid;
+  border-left:1px #000 solid;
+  border-right:1px #999 solid;
+  border-top:1px #000 solid;
+}
+
+.AccordionContent
+{
+  height:0px;
+  overflow:auto;
+  display:none;
+}
+
+.AccordionContent ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.AccordionContent ul li
+{
+	margin-bottom:2px;
+}
+
+.AccordionContent ul li a
+{
+	width:80px;
+	display:block;
+	padding:4px;
+	text-decoration:none;
+	color:#FFF;
+	margin:4px auto;
+	border:1px #333 solid;
+	text-align:center;
+}				
+
+.AccordionContent ul li a:hover
+{
+	border:1px #999 solid;
+}
+
+/*.AccordionContainer
+{
+  border-top: solid 1px #C1C1C1;
+  border-bottom: solid 1px #C1C1C1;
+  border-left: solid 2px #C1C1C1;
+  border-right: solid 2px #C1C1C1;
+}*/

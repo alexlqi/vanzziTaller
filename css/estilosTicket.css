@@ -1,0 +1,116 @@
+BODY
+{
+	width:72mm;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+h1
+{
+	margin:2mm 0;
+	font-size:14px;
+}
+h2
+{
+	margin:2mm 0;
+	font-size:12px;
+	font-weight:normal;
+}
+#cuerpoTicket
+{
+	font-size:9px;
+}
+#cuerpoTicket ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#cuerpoTicket ul li
+{
+	margin:0;
+	padding:0;
+}
+#divID
+{
+	width:20mm;
+	float:left;
+	text-align:left;
+}
+#divCliente
+{
+	width:52mm;
+	float:right;
+	text-align:right;
+}
+.divProducto
+{
+	width:39mm;
+	float:left;
+	margin:1mm 1mm 1mm 0;
+	text-align:left;
+}
+.divCantidad
+{
+	width:14mm;
+	float:left;
+	margin:1mm 1mm 1mm 0;
+}
+.divMonto
+{
+	width:17mm;
+	float:left;
+	margin:1mm 0 1mm 0;
+	text-align:right;
+}
+.divProductoServicio
+{
+	width:49mm;
+	float:left;
+	margin:1mm 1mm 1mm 0;
+	text-align:left;
+}
+.divCantidadServicio
+{
+	width:21mm;
+	float:left;
+	margin:1mm 0 1mm 0;
+}
+.divNoTicket
+{
+	width:20mm;
+	float:left;
+	margin:1mm 1mm 1mm 0;
+	text-align:left;
+}
+.divFormaPago
+{
+	width:33mm;
+	float:left;
+	margin:1mm 1mm 1mm 0;
+	text-align:left;
+}
+.top
+{
+	border-bottom:1px #000 solid;
+	border-top:1px #000 solid;
+}
+.labelImporte
+{
+	width:49mm;
+	float:left;
+	margin:1mm 1mm 1mm 0;
+	text-align:right;
+}
+.cantidadImporte
+{
+	width:22mm;
+	float:left;
+	margin:1mm 0 1mm 0;
+	text-align:right;
+}
+.clear
+{
+	clear:both;
+}
